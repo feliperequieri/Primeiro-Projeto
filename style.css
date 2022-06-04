@@ -1,0 +1,77 @@
+* {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+body {
+  background-color: #F3F5FC;
+}
+
+.main {
+  display: flex;
+  margin: 0 0 50px 80px;
+}
+
+.input-texto {
+  display: flex;
+  background-color: #F3F5FC;
+  color: #0A3871;
+  margin-top: 90px;
+  border: none;
+}
+
+textarea:focus {
+  box-shadow: none;
+  border: 0 none;
+  outline: 0;
+}
+
+textarea::placeholder {
+  color: #0A3871;
+  box-shadow: none;
+}
+
+.mensagem {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 90px;
+  background: url("/img/imagem-ilustrativa.svg") no-repeat;
+  border: none;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.encriptar {
+  background-color: #0A3871;
+  color: white;
+}
+
+.desencriptar {
+  margin-left: 30px;
+}
+
+.informacao {
+  font-size: 15px;
+}
+
+.copiar {
+  display: block;
+  position: absolute;
+  top: 920px;
+  border-bottom: solid #0A3871; 
+}
+
+.container {
+  background-color: #FFFFFF;
+  width: 500px;
+  height: 900px;
+  margin-left: 160px;
+  border-radius: 32px;
+  position: relative;
+}
